@@ -34,6 +34,18 @@ signal pwmOutBuffer: std_logic_vector(PWM_PIN_COUNT - 1 downto 0);
 signal shiftRegister: unsigned(PWM_PIN_COUNT * 32 * 3 - 1 downto 0);
 signal shiftRegisterLatched: unsigned(PWM_PIN_COUNT * 32 * 3 - 1 downto 0);
 
+component PWMOutput is
+	port (
+		clock		: in std_logic;
+		reset		: in std_logic;
+		off1Time : in unsigned(31 downto 0);
+		onTime   : in unsigned(31 downto 0);
+		off2Time : in unsigned(31 downto 0);
+		cycleStart: out std_logic;
+		pwmOut	: out std_logic
+	);
+end component;
+
 begin
 
    GeneratePWM:
