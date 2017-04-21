@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AB1805
+D Real-Time Clock with Power Management
+K AB18X5
+F http://abracon.com/Precisiontiming/AB18X5-RTC.pdf
+$ENDCMP
+#
+$CMP AB1815
+D Real-Time Clock with Power Management
+K AB18X5
+F http://abracon.com/Precisiontiming/AB18X5-RTC.pdf
+$ENDCMP
+#
+$CMP Crystal
+D Two pin crystal
+K quartz ceramic resonator oscillator
+$ENDCMP
+#
+#End Doc Library
