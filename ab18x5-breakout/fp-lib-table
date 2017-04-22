@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name crystal)(type KiCad)(uri "$(KIPRJMOD)/crystal.pretty")(options "")(descr ""))
   (lib (name qfn16)(type KiCad)(uri "$(KIPRJMOD)/qfn16.pretty")(options "")(descr ""))
+  (lib (name ab18x5-breakout)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
 )
